@@ -1,0 +1,142 @@
+/*-----------------police---------------*/
+
+
+/*-------------conteneur-----------------*/
+#conteneur
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/*-------header-------------*/
+
+header
+{
+    width: auto;
+    display: flex;
+}
+
+.portrait
+{
+    width: 380px;
+    height: 350px;
+    background-color: rgb(139,195,74);
+}
+
+.portrait img
+{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+    width: 230px;
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+.cv_titre 
+{
+    width: 820px;
+}
+
+.cv_titre h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.cv_titre h1 span
+{
+    color: rgb(139,195,74);
+}
+
+.cv_titre p
+{
+    font-size: 2em;
+    margin-left: 60px;
+}
+
+p span
+{
+    border-bottom: 2px solid rgb(139,195,74);
+}
+
+/*----------main------------*/
+
+main
+{
+    width: auto;
+    display: flex;
+}
+
+
+/*---------------liseret aside------------*/
+
+aside
+{
+    width: 380px;
+    background-color: rgb(139,195,74);
+}
+
+.aside h2
+{
+    color: rgb(139,195,74);
+    background-color: rgb(62,39,35);
+}
+
+.propos h2
+{
+    color: rgb(139,195,74);
+    background-color: rgb(62,39,35);
+}
+
+.loisirs h2
+{
+    color: rgb(139,195,74);
+    background-color: rgb(62,39,35);
+}
+
+/*-------------article-------*/
+
+article
+{
+    width: 820px;
+}
+.section_form
+{
+    width: auto;
+    display: flex;
+    border: 2px solid red;
+}
+
+.date 
+{
+    width: 350px;
+}
+
+.intitule
+{
+    width: 370px;
+}
+
+.section_exp
+{
+    width: auto;
+    display: flex;
+    border: 2px solid red;
+}
+
+.section_recom
+{
+    width: auto;
+    display: flex;
+    border: 2px solid red;
+}
+
+.carte
+{
+    width: 410px;
+}
