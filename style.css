@@ -1,13 +1,58 @@
 /*-----------------police---------------*/
+@font-face {
+    font-family: 'yantramanavthin';
+    src: url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.eot');
+    src: url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.woff2') format('woff2'),
+         url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.woff') format('woff'),
+         url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.ttf') format('truetype'),
+         url('fonts/yantramanav_thin_macroman/yantramanav-thin-webfont.svg#yantramanavthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'yantramanavmedium';
+    src: url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.eot');
+    src: url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.woff2') format('woff2'),
+         url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.woff') format('woff'),
+         url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.ttf') format('truetype'),
+         url('fonts/yantramanav_medium_macroman/yantramanav-medium-webfont.svg#yantramanavmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yantramanav_regularregular';
+    src: url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.eot');
+    src: url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.woff2') format('woff2'),
+         url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.woff') format('woff'),
+         url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.ttf') format('truetype'),
+         url('fonts/yantramanav_regular_macroman/yantramanav-regular-webfont.svg#yantramanav_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 
 /*-------------conteneur-----------------*/
 #conteneur
 {
+    
     width: 1200px;
     height: auto;
     margin: auto;
     border: 2px solid black;
+    color: rgb(62,39,35);
+    font-size: 1.1em;
+    font-family: 'yantramanav_regularregular', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*-------header-------------*/
@@ -21,14 +66,14 @@ header
 .portrait
 {
     width: 380px;
-    height: 350px;
+    height: 310px;
     background-color: rgb(139,195,74);
 }
 
 .portrait img
 {
     position: absolute;
-    margin-top: 75px;
+    margin-top: 60px;
     margin-left: 75px;
     width: 230px;
     height: 230px;
@@ -39,27 +84,38 @@ header
 .cv_titre 
 {
     width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cv_titre h1
 {
-    font-size: 3em;
+    font-family: 'yantramanavthin', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.6em;
     text-transform: uppercase;
     margin-left: 60px;
+    margin-bottom: 0em;
+    font-weight: normal;
 }
 
 .cv_titre h1 span
 {
+    font-family: 'yantramanavmedium', Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(139,195,74);
+    font-weight: normal;
 }
 
 .cv_titre p
 {
+    font-family: 'yantramanav_regularregular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     margin-left: 60px;
+    margin-top: 0.1em;
+    
 }
 
-p span
+.cv_titre p span
 {
     border-bottom: 2px solid rgb(139,195,74);
 }
@@ -80,17 +136,54 @@ aside
     width: 380px;
     background-color: rgb(139,195,74);
 }
-
+/*------------contact-------------------*/
 .aside h2
 {
+    font-size: 1.8em;
     color: rgb(139,195,74);
     background-color: rgb(62,39,35);
+    text-align: center;
+    padding: 6px;
+
+}
+
+.contact_libele
+{
+    text-align: justify;
+    margin-left: 50px;
+    margin-bottom: 0.7em;
+    font-size: 1.1em;
+}
+
+.contact_libele p
+{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+/*---------------propos-----------*/
+
+.propos
+{
+    height: 700px;
 }
 
 .propos h2
 {
+    margin-top: 1.5em;
+    font-size: 1.8em;
     color: rgb(139,195,74);
     background-color: rgb(62,39,35);
+    text-align: center;
+    padding: 6px;
+}
+
+.propos p
+{
+    font-size: 1.1em;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .loisirs h2
@@ -99,12 +192,58 @@ aside
     background-color: rgb(62,39,35);
 }
 
+.loisirs i
+{
+    font-size: 2em;
+    color: rgb(62,39,35);
+    border: 2px solid rgb(62,39,35);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.loisirs p
+{
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+}
+
+
 /*-------------article-------*/
 
 article
 {
     width: 820px;
 }
+
+section h2
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.9em;
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid rgb(139,195,74);
+
+}
+
+i
+{
+    color: rgb(139,195,74);
+    margin-right: 35px;
+}
+
+h2 img
+{
+    display: block;
+    width: 45px;
+    height: 50px;
+    margin-right: 30px;
+    fill:  rgb(139,195,74);
+}
+
 .section_form
 {
     width: auto;
@@ -112,15 +251,87 @@ article
     border: 2px solid red;
 }
 
-.date 
+.date
 {
-    width: 350px;
+    width: 320px;
+    display: flex;
+    align-content: center;
 }
+
+.recent
+{
+    display: flex;
+}
+
+.date i
+{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 0.6em;
+}
+
+.recent i
+{
+    font-size: 0.9em;
+}
+
+.date p
+{
+    width: 200px;
+}
+
+/*
+.date ul
+{
+    display: block;
+    width: 90px;
+    list-style-image: url(img/dot_circle.svg);
+    color: rgb(139,195,74);
+    font-size: 1.8em;
+    margin-left: 60px;
+    margin-top: 0px;
+    text-align: justify;
+
+    border: 1px solid black;
+}
+
+
+.date li span
+{
+    display: block;
+    font-size: 0.6em;
+    border: 1px solid blueviolet;
+
+}
+
+.recent img
+{
+    width: 15px;
+    height: 15px;
+}
+*/
 
 .intitule
 {
-    width: 370px;
+    width: 450px;
+    border: 2px solid black;
 }
+
+.intitule h3
+{
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 0em;
+}
+
+.intitule p
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
 
 .section_exp
 {
@@ -139,4 +350,14 @@ article
 .carte
 {
     width: 410px;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+.carte ul
+{
+    margin-left: 30px;
 }
