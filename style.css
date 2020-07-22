@@ -39,18 +39,21 @@
 
 }
 
-
-
-
 /*-------------conteneur-----------------*/
+body
+{
+    background-color: black;
+}
+
 #conteneur
 {
     
     width: 1200px;
     height: auto;
     margin: auto;
-    border: 2px solid black;
+    border: thick double rgb(224,224,224);
     color: rgb(62,39,35);
+    background-color: blanchedalmond;
     font-size: 1.1em;
     font-family: 'yantramanav_regularregular', Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -67,17 +70,17 @@ header
 {
     width: 380px;
     height: 310px;
-    background-color: rgb(139,195,74);
+    background-color: rgb(139, 195, 74);
 }
 
 .portrait img
 {
     position: absolute;
     margin-top: 60px;
-    margin-left: 75px;
+    margin-left: 71px;
     width: 230px;
     height: 230px;
-    border: 2px solid black;
+    border: 0.2rem solid rgb(132, 187, 70);
     border-radius: 150px;
 }
 
@@ -153,24 +156,25 @@ aside
     margin-left: 50px;
     margin-bottom: 0.7em;
     font-size: 1.1em;
+    line-height: 1em;
 }
 
 .contact_libele p
 {
-    margin-top: 0em;
+    margin-top: 0.2em;
     margin-bottom: 0em;
 }
 /*---------------propos-----------*/
 
 .propos
 {
-    height: 700px;
+    height: 750px;
 }
 
 .propos h2
 {
     margin-top: 1.5em;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: rgb(139,195,74);
     background-color: rgb(62,39,35);
     text-align: center;
@@ -184,12 +188,18 @@ aside
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
+    line-height: 1em;
 }
+
+/*-------loisirs-------------*/
 
 .loisirs h2
 {
+    font-size: 1.8em;
     color: rgb(139,195,74);
     background-color: rgb(62,39,35);
+    text-align: center;
+    padding: 6px;
 }
 
 .loisirs i
@@ -212,7 +222,7 @@ aside
 
 /*-------------article-------*/
 
-article
+.sous_main
 {
     width: 820px;
 }
@@ -222,6 +232,7 @@ section h2
     display: flex;
     align-items: center;
     font-size: 1.9em;
+    margin-top: 50px;
     margin-left: 70px;
     margin-right: 50px;
     padding-bottom: 0.2em;
@@ -244,11 +255,12 @@ h2 img
     fill:  rgb(139,195,74);
 }
 
+/*------------Formation---------------*/
+
 .section_form
 {
     width: auto;
     display: flex;
-    border: 2px solid red;
 }
 
 .date
@@ -281,41 +293,9 @@ h2 img
     width: 200px;
 }
 
-/*
-.date ul
-{
-    display: block;
-    width: 90px;
-    list-style-image: url(img/dot_circle.svg);
-    color: rgb(139,195,74);
-    font-size: 1.8em;
-    margin-left: 60px;
-    margin-top: 0px;
-    text-align: justify;
-
-    border: 1px solid black;
-}
-
-
-.date li span
-{
-    display: block;
-    font-size: 0.6em;
-    border: 1px solid blueviolet;
-
-}
-
-.recent img
-{
-    width: 15px;
-    height: 15px;
-}
-*/
-
 .intitule
 {
     width: 450px;
-    border: 2px solid black;
 }
 
 .intitule h3
@@ -329,35 +309,73 @@ h2 img
 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    font-size: 1.1em;
+    line-height: 1em;
 }
 
-
+/*-------------expérience---------------------*/
 
 .section_exp
 {
     width: auto;
     display: flex;
-    border: 2px solid red;
 }
 
 .section_recom
 {
     width: auto;
     display: flex;
-    border: 2px solid red;
 }
+
+/*---------------recommandations--------------*/
 
 .carte
 {
     width: 410px;
+    height: 180px;
 }
 
-ul 
+.carte h3
 {
-    list-style-type: none;
+    font-size: 1.1em;
+    margin-top: 0.4em;
+    margin-left: 70px;
+    margin-bottom: 0em;
+    line-height: 1em;
 }
 
-.carte ul
+.carte p
 {
-    margin-left: 30px;
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    line-height: 0.5em;
+}
+
+.carte span
+{
+    font-weight: bold;
+}
+
+.carte2 span
+{
+    font-weight: bold;
+}
+
+
+.carte2 h3
+{
+    font-size: 1.1em;
+    margin-top: 0.4em;
+    margin-bottom: 0em;
+    line-height: 1em;
+}
+
+.carte2 p
+{
+    font-size: 1em;
+    text-align: justify;
+    margin-bottom: 0px;
+    line-height: 0.5em;
 }
