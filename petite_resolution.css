@@ -1,0 +1,340 @@
+@media screen and (max-width: 1220px)
+{
+   #conteneur
+   {
+       width: 900px;
+   }
+   
+   .portrait
+   {
+        width: 230px;
+        height: 210px;
+   }
+
+   .portrait img
+    {
+        margin-top: 40px;
+        margin-left: 45px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .cv_titre 
+    {
+        width: 670px;
+    }
+
+    .cv_titre h1
+    {
+        font-size: 2.6em;
+    }
+
+    .cv_titre p
+    {
+        font-size: 1.4em;
+    }
+
+    aside
+    {
+        width: 230px;
+    }
+
+    .aside h2
+    {
+        font-size: 1.2em;
+    }
+
+    .contact_libele
+    {
+    margin-left: 20px;
+    font-size: 0.9em;
+    }
+
+    .propos
+    {
+        height: 620px;
+    }
+
+    .propos h2
+    {
+        font-size: 1.2em;
+    }
+
+    .propos p
+    {
+        font-size: 0.9em;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .loisirs h2
+    {
+        font-size: 1.2em;
+    }
+
+    .loisirs i
+    {
+        font-size: 1.2em;
+        margin: 2px;
+        padding: 10px;
+    }
+    
+    .loisirs p 
+    {
+        height: 30px;
+    }
+
+    .sous_main
+    {
+        width: 670px;
+    }
+
+    section h2
+    {
+        display: flex;
+        align-items: center;
+        font-size: 1.2em;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    i 
+    {
+        margin-right: 25px;
+    }
+
+    .date i
+    {
+        font-size: 0.5em;
+        margin-left: 50px;
+    }
+
+    .recent i
+    {
+        font-size: 0.6em;
+    }
+
+    .intitule h3 
+    {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+    .intitule p 
+    {
+        font-size: 0.9em;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    .section_recom
+    {
+        justify-content: flex-start;
+    }
+
+    .carte
+    {
+        height: 120px;
+    }
+
+    .carte h3
+    {
+        font-size: 0.9em;
+        margin-left: 50px;
+    }
+    
+    .carte p
+    {
+        font-size: 0.8em;
+        margin-left: 50px;
+    }
+
+    .carte2 h3
+    {
+        font-size: 0.9em;
+        margin-top: 0.4em;
+    }
+    
+    .carte2 p
+    {
+        font-size: 0.8em;
+        
+    }
+  
+}
+
+@media screen and (max-width: 920px)
+{
+    #conteneur
+    {
+        width: auto;
+    }
+
+    header
+    {
+        flex-direction: column;
+    }
+
+    .portrait
+    {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .portrait img
+    {
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .cv_titre 
+    {
+        width: auto;
+        text-align: center;
+    }
+
+    .cv_titre h1
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .cv_titre p
+    {
+        margin-left: 10px;
+    }
+
+    main 
+    {
+        flex-direction: column;
+    }
+
+    aside
+    {
+        width: auto;
+    }
+
+    .contact
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .propos
+    {
+        height: auto;
+    }
+
+    .propos p
+    {
+        margin-top: 10px;
+    }
+
+    .loisirs p
+    {
+        height: auto;
+    }
+
+    .sous_main
+    {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 619px)
+{
+    .cv_titre h1
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contact
+    {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .section_form
+    {
+        flex-direction: column;
+    }
+
+    .section_exp
+    {
+        flex-direction: column;
+    }
+
+    .date p br
+    {
+       display: block;
+       display: none;
+    }
+
+    .date p
+    {
+        width: auto;
+    }
+
+    .date i 
+    {
+        margin-left: 5px;
+    }
+
+    .intitule
+    {
+        width: auto;
+    }
+
+    .intitule h3
+    {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    .intitule p 
+    {
+        margin-left: 30px;
+    }
+
+    .section_recom
+    {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .carte2
+    {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 577px)
+{
+    .cv_titre h1
+    {
+       font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 437px)
+{
+    .cv_titre h1
+    {
+       font-size: 1.5em;
+    }
+
+    .cv_titre p
+    {
+        font-size: 1em;
+    }
+}
+
