@@ -40,10 +40,10 @@
 }
 
 /*-------------conteneur-----------------*/
-/*body
+body
 {
     background-color: black;
-}*/
+}
 
 #conteneur
 {
@@ -115,6 +115,7 @@ header
     font-size: 2em;
     margin-left: 60px;
     margin-top: 0.1em;
+    
 }
 
 .cv_titre p span
@@ -146,7 +147,6 @@ aside
     background-color: rgb(62,39,35);
     text-align: center;
     padding: 6px;
-    margin-top: 0px;
 
 }
 
@@ -168,7 +168,7 @@ aside
 
 .propos
 {
-    height: 780px;
+    height: 750px;
 }
 
 .propos h2
@@ -237,6 +237,7 @@ section h2
     margin-right: 50px;
     padding-bottom: 0.2em;
     border-bottom: 2px solid rgb(139,195,74);
+
 }
 
 i
@@ -245,6 +246,14 @@ i
     margin-right: 35px;
 }
 
+h2 img
+{
+    display: block;
+    width: 45px;
+    height: 50px;
+    margin-right: 30px;
+    fill:  rgb(139,195,74);
+}
 
 /*------------Formation---------------*/
 
@@ -317,7 +326,6 @@ i
 {
     width: auto;
     display: flex;
-    justify-content: space-evenly;
 }
 
 /*---------------recommandations--------------*/
@@ -332,7 +340,7 @@ i
 {
     font-size: 1.1em;
     margin-top: 0.4em;
-    margin-left: 0px;
+    margin-left: 70px;
     margin-bottom: 0em;
     line-height: 1em;
 }
@@ -341,7 +349,7 @@ i
 {
     font-size: 1em;
     text-align: justify;
-    margin-left: 0px;
+    margin-left: 70px;
     margin-bottom: 0px;
     line-height: 0.5em;
 }
