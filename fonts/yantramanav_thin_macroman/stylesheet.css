@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'yantramanavthin';
+    src: url('yantramanav-thin-webfont.eot');
+    src: url('yantramanav-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('yantramanav-thin-webfont.woff2') format('woff2'),
+         url('yantramanav-thin-webfont.woff') format('woff'),
+         url('yantramanav-thin-webfont.ttf') format('truetype'),
+         url('yantramanav-thin-webfont.svg#yantramanavthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
